@@ -1,0 +1,48 @@
+names:
+- bitzAlmendras
+- bitzEnchilado90
+- bitzEnchilado95
+- bitzHabanero
+- bokadosCacahuates
+- botaneraChilito
+- cheetosFlaminHot
+- cheetosOriginal
+- chipsFuego
+- chipsJalapeno
+- chipsPapatinas
+- churrumais
+- delPrimoSalsa
+- doritosNacho
+- fritosLimon
+- hotNutsOriginal
+- leoCacahuates
+- leoMix
+- maruchanPollo
+- maruchanRes
+- nestleCarnation
+- nestleLechera
+- nissinCamaron
+- nissinRes
+- popKarameladas
+- productoAtras
+- rancheritos
+- rufflesQueso
+- runners
+- sabritasOriginal
+- salsaBufalo
+- semillasCalabaza
+- semillasGirasol
+- tajinDulce
+- takisFuego
+- takisOriginal
+- tostitos
+nc: 37
+roboflow:
+  license: CC BY 4.0
+  project: oxxoproject-2
+  url: https://universe.roboflow.com/itesm-v88lm/oxxoproject-2/dataset/2
+  version: 2
+  workspace: itesm-v88lm
+test: ../test/images
+train: OxxoProject-2-2/train/images
+val: OxxoProject-2-2/valid/images
