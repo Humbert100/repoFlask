@@ -7,7 +7,7 @@ import torch
 from flask import Flask, jsonify, url_for, render_template, request, redirect
 
 app = Flask(__name__)
-
+app.run(host='0.0.0.0')
 RESULT_FOLDER = os.path.join('static')
 app.config['RESULT_FOLDER'] = RESULT_FOLDER
 
