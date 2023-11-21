@@ -11,11 +11,13 @@ A) **Creación de vm Instance**
    <br>
    1.1 Image: Oracle Linux 8
    <br>
+   ### **Me comentaron que uses mejor ubuntu y te ahorras tantos problemas, pero si aún sigues teniendo problemas quizas te ayude algo de aquí.**
+   <br>
    1.2 Shape: VM.Standard.E2.1 (cambié el shape porque cuando traté de instalar, usando el shape por default, el torch se moría el proceso).
    <br>
    1.3 Si usas Putty, necesitas descargar un private key.
    <br>
-2. Añadí reglas de seguridad para poder acceder a la instancia:
+3. Añadí reglas de seguridad para poder acceder a la instancia:
    <br>
    2.1 Ingress Rules
    <br>
@@ -24,7 +26,7 @@ A) **Creación de vm Instance**
    2.2 Egress Rules
    <br>
    ![image](https://github.com/Humbert100/repoFlask/assets/93540685/d2e875df-08ad-4f17-8553-2816d269559a)
-3. Probar (si quieres probar la conexión a tu vm instance)
+4. Probar (si quieres probar la conexión a tu vm instance)
    <br>
    Usa el comando en terminal: `ping <IPv4 address>`.
    
