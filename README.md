@@ -15,19 +15,19 @@ A) **Creación de vm Instance**
    <br>
    1.3 Si usas Putty, necesitas descargar un private key.
    <br>
-3. Añadí reglas de seguridad para poder acceder a la instancia:
-  <br>
-  2.1 Ingress Rules
+2. Añadí reglas de seguridad para poder acceder a la instancia:
+   <br>
+   2.1 Ingress Rules
    <br>
    ![image](https://github.com/Humbert100/repoFlask/assets/93540685/dcd18478-f1f3-43b1-a18b-b0a36774fb9a)
-  <br>
-  2.2 Egress Rules
+   <br>
+   2.2 Egress Rules
    <br>
    ![image](https://github.com/Humbert100/repoFlask/assets/93540685/d2e875df-08ad-4f17-8553-2816d269559a)
-4. Probar (si quieres probar la conexión a tu vm instance)
-  <br>
-   Usa el comando en terminal: `ping <IPv4 address>`.
+3. Probar (si quieres probar la conexión a tu vm instance)
    <br>
+   Usa el comando en terminal: `ping <IPv4 address>`.
+   
 B) **Instalación y uso de Putty**
 <br>
 Para conectarte a la vm instance necesitarás que tu private key se encuentre en formato .ppk, para eso puedes hacer esto:
@@ -41,14 +41,15 @@ Para conectarte a la vm instance necesitarás que tu private key se encuentre en
 7. En "Session" pon tu IPV4 address. <br>
 8. En "Data" (connection) pon opc.
 9. En "Tunnels" (SSH):
-<br>
-9.1 En "Source port" pon 22.
-<br>
-9.2 En "Destination" pon tu `<IPv4 address:Port>`.
+   <br>
+   9.1 En "Source port" pon 22.
+   <br>
+   9.2 En "Destination" pon tu `<IPv4 address:Port>`.
 10. En "Credentials" (Auth) pon tu private key.
 11. Si quieres (es deseable) guarda la sesión.
 12. Abre tu sesión, te aparecerá otro cuadro de diálogo, dale que si de todos modos.
 13. Ya estas adentro!
+    
 C) **Configuración de tu vm instance.**
 1. Revisa tu versión de pthon y observarás que estás en python 3.6.8, para ultralytics necesitarás tener una versión mayor a 3.8.
 2. Instala python 3.9 con `sudo yum install python39`.
