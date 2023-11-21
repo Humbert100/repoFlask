@@ -21,9 +21,9 @@ A) **Creación de vm Instance**
    <br>
    1.3 Si usas Putty, necesitas descargar un private key.
    <br>
-3. Añadí reglas de seguridad para poder acceder a la instancia:
+3. Añadí reglas de seguridad para poder acceder a la instancia (si no más recuerdo son la de all ports):
    <br>
-   2.1 Ingress Rules
+   2.1 Ingress Rules 
    <br>
    ![image](https://github.com/Humbert100/repoFlask/assets/93540685/dcd18478-f1f3-43b1-a18b-b0a36774fb9a)
    <br>
