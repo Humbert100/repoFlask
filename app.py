@@ -7,7 +7,8 @@ import torch
 from flask import Flask, jsonify, url_for, render_template, request, redirect
 
 app = Flask(__name__)
-app.run(host='0.0.0.0')
+counter = 0
+
 RESULT_FOLDER = os.path.join('static')
 app.config['RESULT_FOLDER'] = RESULT_FOLDER
 
@@ -24,6 +25,7 @@ def get_prediction(img_bytes):
 
 @app.route('/', methods=['GET', 'POST'])
 def predict():
+    global counter
     if request.method == 'POST':
         if 'file' not in request.files:
             return redirect(request.url)
@@ -34,8 +36,14 @@ def predict():
         img_bytes = file.read()
         results = get_prediction(img_bytes)
 
-        results.save(save_dir='static')
+        # Asegúrate de que 'counter' es un entero antes de incrementarlo
+        counter = int(counter) + 1
+        save_dir = 'static' + str(counter)
+        results.save(save_dir=save_dir)
 
-        full_filename = os.path.join(app.config['RESULT_FOLDER'], 'results0.jpg')
-        return redirect('static/image0.jpg')
+        # Usa la variable al redirigir a la imagen resultante
+        #return redirect(save_dir + '/image0.jpg')
     return render_template('index.html')
+
+if __name__ == "__main__":
+    app.run(debug=True)
