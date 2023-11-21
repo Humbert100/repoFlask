@@ -5,6 +5,8 @@ Este es un repo que hice para montar una vm instance y ejecutar app.py usando PU
 A continuación están los pasos que seguí (espero no se me olvide alguno).
 <br>
 Aclaro, sólo se encuentra NUESTRO modelo no otra cosa.
+<br>
+Los requirements originales están al inicio del repo.
 ---
 A) **Creación de vm Instance**
 1. Creé una vm instance con estas características:
