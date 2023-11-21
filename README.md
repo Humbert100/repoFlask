@@ -8,7 +8,7 @@ Aclaro, sólo se encuentra NUESTRO modelo no otra cosa.
 <br>
 Los requirements originales están al inicio del repo.
 <br>
-Si quieres usar la conectarte a la vm instance que tengo igual te puedo pasar la ipv4, el private key y user.
+Si quieres conectarte a la vm instance que tengo igual te puedo pasar la ipv4, el private key y user.
 ---
 A) **Creación de vm Instance**
 1. Creé una vm instance con estas características:
