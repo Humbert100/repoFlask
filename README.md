@@ -64,5 +64,5 @@ C) **Configuración de tu vm instance.**
 11. Instala flask con `pip install Flask`.
 12. Por alguna razón, siempre antes de correr flask, te muestra un error de que no encuentra pandas, lo tienes que instalar.
 13. Corre tu flask con `flask run`.
-14. Si corre,👌; si no, algo se me olvido 👍.
+14. Si corre,👌; si no, algo se me olvido 😥.
 ## Espero les ayude en algo.
